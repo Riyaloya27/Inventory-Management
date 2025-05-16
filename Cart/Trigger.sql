@@ -8,7 +8,7 @@ CREATE TRIGGER CheckTotalPrice
         END IF;
     END$$
 DELIMITER ;
-
+-- sql query
 -- This will give error
 INSERT INTO cart(
     ProductName,
